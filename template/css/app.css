@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(235,235,235) !important;
+}
+
+.logo{
+    width: 244px;
+    height: 80px;
+}
+
+.dropdown-menu{
+    transform: translate3d(-100px, 0px, 0px);
+    margin-top: 25px;
+}
+
+.icon-user{
+    position: absolute;
+    right: 55px;
+    top: 22px;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgba(255,255,255,.5);
+}
+
+.icon-user:hover{
+    color: rgba(255,255,255,.8);
+}
+
+.table-div{
+    margin: 120px auto 20px auto;
+    width: 80%;
+}
+
+.responsible-table{
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#pesquisar{
+    padding: 6px 10px 6px 45px !important;
+}
+
+.form-pesquisa{
+    width: 240px;
+    height: 38px;
+}
+
+.btn-dark{
+    padding: 10px 12px 10px 14px;
+}
+
+#pesquisa-icon{
+    position: relative !important;
+	top: -53px;
+    left: calc(100% - 239px);
+    border-radius: .25rem 0rem 0rem .25rem;
+}
+
+.container{
+    padding: 60px 0px !important;
+}
+
+.display-4{
+    margin-top: 100px !important;
+    text-align: center;
+}
+
+#bt-voltar{
+    cursor: pointer;
+    position: absolute;
+    top: -120px;
+}
